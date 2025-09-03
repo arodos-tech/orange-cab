@@ -4,7 +4,28 @@ import { Badge } from '@/components/ui/badge';
 import { Star, Users, Fuel, Shield, ArrowLeft, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { getImageUrl } from '@/utils/imageImports';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+
+const UrbaniaFAQItem = ({ question, answer }: { question: string; answer: string }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  return (
+    <div className="border-b border-border">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex justify-between items-center py-4 text-left hover:text-orange-500 transition-colors"
+      >
+        <span className="font-medium text-foreground hover:text-orange-500 transition-colors">{question}</span>
+        <span className="text-primary text-xl font-bold">
+          {isOpen ? "-" : "+"}
+        </span>
+      </button>
+      {isOpen && (
+        <p className="pb-4 text-muted-foreground">{answer}</p>
+      )}
+    </div>
+  );
+};
 
 const UrbaniaBooking = () => {
   useEffect(() => {
@@ -156,8 +177,9 @@ const UrbaniaBooking = () => {
             <h2 className="text-2xl font-bold text-foreground mb-4">
               Ready to Book Your Urbania?
             </h2>
-            <p className="text-muted-foreground mb-6">
-              Contact us now for the best rates and availability
+            <p className="text-muted-foreground mb-6 max-w-4xl mx-auto leading-relaxed">
+              Whether it's a corporate group tour to Shillong, a family holiday in Cherrapunji, a Dawki boating trip, or a wildlife adventure in Kaziranga, our Force Urbania 17-seater is the ultimate vehicle for luxury, comfort, and togetherness.<br /><br />
+              Contact us now to check availability and secure your booking.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -178,6 +200,39 @@ const UrbaniaBooking = () => {
             </div>
           </CardContent>
         </Card>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid lg:grid-cols-3 gap-16">
+          <div>
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              FAQ
+            </h2>
+            <p className="text-muted-foreground">
+              Find quick answers to common questions
+            </p>
+          </div>
+          
+          <div className="lg:col-span-2 space-y-4">
+            <UrbaniaFAQItem 
+              question="How many people can travel in the Force Urbania 17 Seater?"
+              answer="It can comfortably seat up to 17 passengers, making it ideal for group trips."
+            />
+            <UrbaniaFAQItem 
+              question="Can I book the Urbania for a Guwahati to Shillong and Cherrapunji tour?"
+              answer="Yes, the Urbania is available for all Meghalaya routes including Shillong, Cherrapunji, Dawki, Mawlynnong, and Kaziranga."
+            />
+            <UrbaniaFAQItem 
+              question="Are fuel and driver expenses included in the rental price?"
+              answer="Yes, fuel, driver charges, and driver lodging are all included in the package."
+            />
+            <UrbaniaFAQItem 
+              question="Does the vehicle have AC and entertainment features?"
+              answer="Yes, the Urbania comes with full air-conditioning and an entertainment system for a comfortable group travel experience."
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
