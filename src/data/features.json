@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Safe & Secure",
+    "description": "Experienced drivers and well-maintained vehicles for your safety",
+    "image": "/safe_and_secure.jpg"
+  },
+  {
+    "title": "24/7 Service",
+    "description": "Round-the-clock availability for all your transportation needs",
+    "image": "/24x7.jpg"
+  },
+  {
+    "title": "Local Expertise",
+    "description": "Deep knowledge of Northeast India's roads and destinations",
+    "image": "/localexpertise.jpg"
+  },
+  {
+    "title": "5-Star Rated",
+    "description": "Consistently rated 5 stars by our satisfied customers",
+    "image": "/5star.jpeg"
+  }
+]

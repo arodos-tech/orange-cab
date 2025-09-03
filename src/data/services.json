@@ -1,0 +1,264 @@
+{
+  "hero": {
+    "title": "Premium Cab Services in Guwahati",
+    "subtitle": "Experience luxury, comfort, and reliability with Orange Cabs",
+    "description": "Your trusted partner for city rides, outstation trips, airport transfers, and memorable tours across Northeast India.",
+    "ctaButtons": [
+      {
+        "text": "Book Now",
+        "action": "book",
+        "primary": true
+      },
+      {
+        "text": "Call +91-9394939500",
+        "action": "call",
+        "primary": false
+      }
+    ]
+  },
+  "navigation": {
+    "logo": "Orange Cab",
+    "items": [
+      { "label": "Cab Booking", "href": "#services", "id": "booking" },
+      { "label": "Services", "href": "#services", "id": "services" },
+      { "label": "Our Fleet", "href": "#fleet", "id": "fleet" },
+      { "label": "Tours", "href": "#tours", "id": "tours" },
+      { "label": "About Us", "href": "#about", "id": "about" },
+      { "label": "Contact", "href": "#contact", "id": "contact" },
+      { "label": "Terms", "href": "/terms-and-conditions", "id": "terms" }
+    ],
+    "ctaButton": {
+      "text": "Call +91-9394939500",
+      "action": "call"
+    }
+  },
+  "cityServices": {
+    "title": "Inside City Cab Rentals Guwahati",
+    "subtitle": "Comfortable rides within the city",
+    "services": [
+      {
+        "id": "city_cab",
+        "name": "City Cabs",
+        "price": "₹3000",
+        "period": "per day",
+        "image": "/src/assets/swift-dzire.jpg",
+        "rating": 5,
+        "seats": 4,
+        "bags": 2,
+        "features": [
+          "Car rental charges included",
+          "Driver charges included",
+          "Fuel cost included",
+          "Driver food & lodging included",
+          "Clean, sanitized vehicle ready for travel",
+          "Pick-up from Guwahati Airport, Railway Station, or city hotels"
+        ],
+        "limits": "80km and 8 hours  daily limit applicable",
+        "popular": false
+      },
+      {
+        "id": "innova_cab",
+        "name": "Innova Cabs",
+        "price": "₹4500",
+        "period": "per day",
+        "image": "/src/assets/innova-crysta.jpg",
+        "rating": 5,
+        "seats": 7,
+        "bags": 6,
+        "features": [
+          "Car charges included",
+          "Fuel included",
+          "Driver charges included",
+          "Driver food & lodging included"
+        ],
+        "limits": "80km and 8 hours limit applicable",
+        "popular": true
+      },
+      {
+        "id": "tempo_traveller",
+        "name": "Tempo Traveller",
+        "price": "₹6500",
+        "period": "per day",
+        "image": "/src/assets/tempo-traveller.jpg",
+        "rating": 5,
+        "seats": "11-25",
+        "bags": 10,
+        "features": [
+          "Car charges included",
+          "Fuel included",
+          "Driver charges included",
+          "Driver food & lodging included"
+        ],
+        "limits": "80km and 8 hours limit applicable",
+        "popular": false
+      },
+      {
+        "id": "force_urbania",
+        "name": "Urbania",
+        "price": "₹10,000-₹12,000",
+        "period": "per day",
+        "image": "/force-urbania1.jpg",
+        "rating": 5,
+        "seats": 16,
+        "bags": 10,
+        "features": [
+          "Car charges included",
+          "Fuel included",
+          "Driver charges included",
+          "Driver food & lodging included"
+        ],
+        "limits": "80km and 8 hours limit applicable",
+        "popular": false
+      },
+      {
+        "id": "ertiga_cab",
+        "name": "Ertiga Cabs",
+        "price": "₹4000",
+        "period": "per day",
+        "image": "/ertiga.jpg",
+        "rating": 5,
+        "seats": 7,
+        "bags": 6,
+        "features": [
+          "Car charges included",
+          "Fuel included",
+          "Driver charges included",
+          "Driver food & lodging included"
+        ],
+        "popular": false
+      },
+      {
+        "id": "creta_cab", 
+        "name": "Creta Cabs",
+        "price": "₹4000",
+        "period": "per day",
+        "image": "/creta.jpg",
+        "rating": 5,
+        "seats": 5,
+        "bags": 4,
+        "features": [
+          "Premium SUV comfort",
+          "Car charges included",
+          "Fuel included", 
+          "Driver charges included",
+          "Driver food & lodging included"
+        ],
+        "popular": false
+      }
+    ]
+  },
+  "outstationServices": {
+    "title": "Popular Outstation Tours",
+    "subtitle": "Explore the beautiful Northeast India",
+    "tours": [
+      {
+        "id": "meghalaya_5day",
+        "name": "5 Day Meghalaya Tour",
+        "duration": "5 days, 4 nights",
+        "description": "Car rental in Guwahati for your 5 day Meghalaya tour. Experience local sightseeing with 1 night in Shillong, 2 nights in Cherrapunjee, 1 night in Dawki.",
+        "image": "/falls.jpg",
+        "highlights": [
+          "1 night stay in Shillong",
+          "2 nights in Cherrapunjee", 
+          "1 night in Dawki",
+          "Local sightseeing included"
+        ],
+        "price": "Contact for pricing",
+        "popular": true
+      },
+      {
+        "id": "kaziranga_safari",
+        "name": "Kaziranga Safari Tour",
+        "duration": "2 days, 1 night",
+        "description": "Experience the wildlife of Kaziranga National Park with comfortable accommodation and guided safari tours.",
+        "image": "/src/assets/kaziranga-safari.jpg",
+        "highlights": [
+          "Wildlife safari experience",
+          "Comfortable accommodation",
+          "Expert guides included",
+          "Transportation included"
+        ],
+        "price": "Contact for pricing",
+        "popular": false
+      },
+      {
+        "id": "tawang_tour",
+        "name": "Tawang Tour",
+        "duration": "6 days, 5 nights",
+        "description": "Visit the famous Tawang and explore the scenic beauty of Arunachal Pradesh.",
+        "image": "/src/assets/tawang-monastery.jpg",
+        "highlights": [
+          "Tawang Monastery visit",
+          "Scenic mountain views",
+          "Cultural experiences",
+          "Comfortable transportation"
+        ],
+        "price": "Contact for pricing",
+        "popular": false
+      },
+      {
+        "id": "anini_mechuka_tour",
+        "name": "Anini Mechuka Tour",
+        "duration": "10 days, 9 nights",
+        "description": "Explore the pristine beauty of Anini and Mechuka in Arunachal Pradesh. Experience untouched landscapes, tribal culture, and breathtaking mountain views.",
+        "image": "/anini.jpg",
+        "highlights": [
+          "Visit remote Anini valley",
+          "Explore Mechuka's scenic beauty",
+          "Experience tribal culture",
+          "Mountain trekking opportunities",
+          "Photography paradise",
+          "Local homestay experience"
+        ],
+        "price": "Contact for pricing",
+        "popular": false
+      },
+      {
+        "id": "nagaland_tour",
+        "name": "Nagaland Cultural Tour",
+        "duration": "5 days, 4 nights",
+        "description": "Discover the rich cultural heritage of Nagaland. Experience Naga traditions, visit tribal villages, and enjoy the scenic beauty of the Land of Festivals.",
+        "image": "/nagaland.jpg",
+        "highlights": [
+          "Kohima War Cemetery visit",
+          "Traditional Naga villages",
+          "Local handicrafts shopping",
+          "Cultural performances",
+          "Hornbill Festival (seasonal)",
+          "Local cuisine tasting"
+        ],
+        "price": "Contact for pricing",
+        "popular": false
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "Shield",
+      "title": "Safe & Secure",
+      "description": "Experienced drivers and well-maintained vehicles for your safety",
+      "image": "/safe_and_secure.jpg"
+    },
+    {
+      "icon": "Clock",
+      "title": "24/7 Service",
+      "description": "Round-the-clock availability for all your transportation needs"
+    },
+    {
+      "icon": "MapPin",
+      "title": "Local Expertise",
+      "description": "Deep knowledge of Northeast India's roads and destinations"
+    },
+    {
+      "icon": "Star",
+      "title": "5-Star Rated",
+      "description": "Consistently rated 5 stars by our satisfied customers"
+    }
+  ],
+  "contact": {
+    "phone": "+91-9394939500",
+    "whatsapp": "https://wa.link/bg5sy0",
+    "email": "orangecabs.assistant@gmail.com",
+    "address": "Guwahati, Assam, India"
+  }
+}
