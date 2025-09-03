@@ -8,7 +8,6 @@ pnpm-debug.log*
 lerna-debug80km and 8 hours limit alog*
 
 node_modules
-dist
 dist-ssr
 *.local
 
