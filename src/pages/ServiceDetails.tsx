@@ -83,13 +83,14 @@ const ServiceDetails = () => {
     {
       icon: Users,
       title: `${service.seats} Seater Capacity`,
-      description: `Accommodates up to ${service.seats} passengers comfortably`
+      description: `Comfortable seating for up to ${service.seats} passengers, making it perfect for large families or group trips from Guwahati to Meghalaya.
+`
     },
     {
       icon: Luggage,
       title: `${service.bags} Bags Space`,
-      description: "Sufficient luggage room for your Meghalaya tour essentials and shopping."
-    }
+      description: "Extra luggage space to carry bags for your Shillong holiday, Cherrapunji adventure, or Kaziranga safari."
+   }
   ];
 
   return (
@@ -139,8 +140,10 @@ const ServiceDetails = () => {
             </div>
 
             <p className="text-muted-foreground leading-relaxed">
-              Experience comfortable and reliable transportation with our {service.name}. 
-              Perfect for city travels with professional drivers and well-maintained vehicles.
+              Rent {service.name} from Guwahati to Shillong, Cherrapunji, Dawki, Kaziranga, and across Meghalaya. Spacious {service.seats}-seater with luggage space, fuel included, professional drivers. Book Innova car rental now via WhatsApp or call.
+
+              {/* Experience comfortable and reliable transportation with our {service.name}. 
+              Perfect for city travels with professional drivers and well-maintained vehicles. */}
             </p>
 
             {service.limits && (
@@ -212,8 +215,8 @@ const ServiceDetails = () => {
           
           <div className="lg:col-span-2 space-y-4">
             <CityFAQItem 
-              question="Can I book a City Cab for a Guwahati to Shillong trip?"
-              answer="Yes, City Cab rentals are available for Guwahati to Shillong and extended Meghalaya trips."
+              question={` "Can I book a ${service.name} for a Guwahati to Shillong trip?" `}
+              answer={`"Yes, ${service.name} rentals are available for Guwahati to Shillong and extended Meghalaya trips." `}
             />
             <CityFAQItem 
               question="Are fuel and driver charges included in the rental price?"

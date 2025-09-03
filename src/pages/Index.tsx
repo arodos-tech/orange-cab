@@ -218,8 +218,7 @@ const Index = () => {
           {data.outstationServices.tours.length > 3 && (
             <div className="text-center mt-12">
               <Button 
-                variant="outline" 
-                className="text-gray-900 border-gray-300 hover:bg-orange-500 hover:text-white hover:border-orange-500 px-8 py-3 font-semibold transition-all duration-300"
+                className="bg-orange-500 hover:bg-orange-600 text-white border-orange-500 hover:border-orange-600 px-8 py-3 font-semibold transition-all duration-300 hover:scale-105"
                 onClick={() => setShowAllTours(!showAllTours)}
               >
                 {showAllTours ? "Show Less ↑" : "View All →"}
